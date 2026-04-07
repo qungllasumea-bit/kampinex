@@ -6,7 +6,7 @@ import About from './pages/About';
 import Departments from './pages/Departments';
 import Projects from './pages/Projects';
 import ContactUs from './pages/ContactUs'; 
-import LogoSite from './assets/images/kampinex-logo.avif' 
+import LogoSite from '../src/assets/img/kampinex-logo.avif';
 import './App.css';
 
 function App() {
@@ -24,7 +24,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/about-us" element={<About />} />
           <Route path="/departments" element={<Departments />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<ContactUs />} />
