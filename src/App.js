@@ -6,7 +6,7 @@ import About from './pages/About';
 import Departments from './pages/Departments';
 import Projects from './pages/Projects';
 import ContactUs from './pages/ContactUs'; 
-import LogoSite from '../src/assets/img/kampinex-logo.avif';
+import LogoSite from './assets/img/logoKampinex.png';
 import './App.css';
 
 function App() {
