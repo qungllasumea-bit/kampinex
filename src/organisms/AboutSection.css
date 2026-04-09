@@ -1,6 +1,7 @@
 .about-section {
   padding: 50px 20px;
   background-color: #fff;
+  text-align: start;
 }
 
 .about-section .container {
@@ -11,11 +12,13 @@
   align-items: center;
 }
 .about-section h3 {
-  align-items: start;
-  color:#3372b5;
+    align-items: start;
+    color: #3372b5;
 }
 .about-section h1{
   color: #21548a;
+  text-align: start;
+  font-size: 52px;
 }
 .about-section p{
   color: rgba(0, 0, 0, 0.503);

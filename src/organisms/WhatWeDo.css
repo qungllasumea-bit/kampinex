@@ -1,27 +1,47 @@
-.content {
+ .what-we-do {
+    background-color: #e9f7fe;
+ }
+ .what-we-do .content {
     justify-content: space-around;
     align-items: center;
-    text-align: center;
+    margin: 20px;
     padding: 80px;
 }
 
 .what-we-do h1{
 width: 800px;
 font-size: 50px;
+margin: 20px;
+color: #12223b;
+ }
+ .what-we-do h3{
+     color: #3372b5;
+   
  }
  .what-we-do p{
-    font-size: 18px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.675);
  }
- .container{
+  .what-we-do.container{
     display: block;
  }
- .cards{
+  .what-we-do .cards{
     display: flex;
+    align-items: center;
+    gap: 10px;
  }
- .info-card {
+  .what-we-do .info-card {
+    align-items: center;
     text-align: center;
     padding: 40px;
+    margin: 23px;
     border-radius: 15px;
     background-color: #12223b;
     color: white;
 }
+p.card-paragraph {
+    color: white;
+}
+h3.info-card{
+    font-size: 33px;
+  }

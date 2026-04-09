@@ -4,15 +4,14 @@ import Text from "../atoms/Text";
 import Paragraph from "../atoms/Paragraph";
 import "../organisms/ValuesSection.css"
 import "../organisms/WhatWeDo.css"
-const InfoCard = ({ icon, text, paragraph }) => {
+const InfoCard = ({ icon, text, paragraph, showIcon = true }) => {
   return (
     <div className="info-card">
-      <Icon src={icon} className="icon" />
+      
+      {showIcon && icon && <Icon src={icon} className="icon" />}
+      
       <Text text={text} className="card-title" />
-      <Paragraph
-        paragraph={paragraph}
-        ParagraphClassName="card-paragraph"
-      />
+      <Paragraph paragraph={paragraph} ParagraphClassName="card-paragraph" />
     </div>
   );
 };

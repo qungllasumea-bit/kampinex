@@ -5,27 +5,27 @@ import Paragraph from '../atoms/Paragraph'
 import InfoCard from '../molecules/infoCard'
 import '../organisms/WhatWeDo.css'
 
-export default function WhatWeDo({ text, textClassName, title, titleClassName, paragraph, ParagraphClassName}) {
- const data = [
-    {
-        
-      text: "99%",
-      paragraph: "Buildings Control Approval Rate"
-    },
-    {
-      text: "320+",
-    paragraph: "Active Construction Management"
-},
-     
-    {
-      text: "200+",
-      paragraph:"Completed Projects Every Year"
-    },
-     {
-      text: "4.253",
-      paragraph:"Million Euros Turnover In The 2020"
-    },
-  ];
+export default function WhatWeDo({ text, textClassName, title, titleClassName, paragraph, ParagraphClassName }) {
+    const data = [
+        {
+
+            text: "99%",
+            paragraph: "Buildings Control Approval Rate"
+        },
+        {
+            text: "320+",
+            paragraph: "Active Construction Management"
+        },
+
+        {
+            text: "200+",
+            paragraph: "Completed Projects Every Year"
+        },
+        {
+            text: "4.253",
+            paragraph: "Million Euros Turnover In The 2020"
+        },
+    ];
     return (
         <section className="what-we-do">
             <div className='container'>
@@ -35,13 +35,13 @@ export default function WhatWeDo({ text, textClassName, title, titleClassName, p
                     <Paragraph paragraph={paragraph} ParagraphClassName={ParagraphClassName} />
                 </div>
                 <div className='cards'>
-                      {data.map((item, index) => (
-                             <InfoCard
-                               key={index}
-                               text={item.text}
-                               paragraph={item.paragraph}
-                             />
-                           ))}
+                    {data.map((item, index) => (
+                        <InfoCard
+                            text={item.text}
+                            paragraph={item.paragraph}
+                            showIcon={false}
+                        />
+                    ))}
 
                 </div>
             </div>
