@@ -29,7 +29,6 @@ export default function About() {
         text='WHAT WE DO'
         title='Building the future on a foundation of excellence'
         paragraph='At Kampinex, we are dedicated to delivering top-notch construction services that exceed our clients’ expectations. With a commitment to quality, innovation, and sustainability, we strive to build structures that stand the test of time while fostering strong relationships with our clients and communities.'
-
       />
     </div>
   )
