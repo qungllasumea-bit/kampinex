@@ -1,0 +1,29 @@
+.content {
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 80px;
+}
+
+.what-we-do h1{
+width: 800px;
+font-size: 50px;
+ }
+ .what-we-do p{
+    font-size: 18px;
+ }
+ .container{
+    display: block;
+ }
+ .cards{
+    display: flex;
+ }
+ .info-card {
+    text-align: center;
+    padding: 40px;
+    border-radius: 15px;
+    background-color: #12223b;
+    color: white;
+    background: #blue;
+    /* box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08); */
+}

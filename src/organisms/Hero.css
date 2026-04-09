@@ -1,0 +1,22 @@
+.hero {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 150px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.breadcrumb {
+  margin-top: 20px;
+  font-size: 1rem;
+  color: #fff;
+}
+
+.breadcrumb a {
+  color: #007bff;
+  text-decoration: none;
+}

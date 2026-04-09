@@ -1,0 +1,26 @@
+.values-section {
+    display: flex;
+        padding: 80px;
+        gap: 30px;
+}
+
+img.icon {
+    width: 100px;
+}
+.info-card {
+  text-align: start;
+  padding: 40px;
+  border-radius: 15px;
+   background: #ffffff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
+}
+h3{
+  padding: 12px;
+}
+p{
+  padding: 12px;
+}
+.info-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
+}
