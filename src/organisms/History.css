@@ -1,14 +1,15 @@
 .history {
   padding: 50px 20px;
   background-color: #e9f7fe;
+  display: flex;
 }
 
-.container {
+.history .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   gap: 50px;
- 
+
   align-items: center;
 }
 
@@ -21,14 +22,19 @@
   width: 100%;
   border-radius: 44px;
 }
-h1{
+.history h1{
     color:#12223B;
     font-size: 44px;
     width: 500px;
 }
-
-
-.counter {
+.history p{
+      color: rgba(0, 0, 0, 0.503);
+}
+.history h3 {
+  align-items: start;
+  color:#3372b5;
+}
+ .history .counter {
   position: absolute;
   top: 300px;
   right: -20px;
@@ -40,13 +46,13 @@ h1{
   
 }
 
-.counter h2 {
+.history .counter h2 {
   font-size: 2rem;
   margin: 0;
   color: #007bff;
 }
 
-.content {
+.history .content {
   flex: 1;
       align-items: flex-start;
       text-align: start;

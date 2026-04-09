@@ -3,47 +3,49 @@
   background-color: #fff;
 }
 
-.container {
+.about-section .container {
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
   gap: 50px;
   align-items: center;
 }
-h3 {
+.about-section h3 {
   align-items: start;
   color:#3372b5;
 }
-h1{
+.about-section h1{
   color: #21548a;
 }
-p{
+.about-section p{
   color: rgba(0, 0, 0, 0.503);
+  align-items: start;
 }
-.image img {
+ .image img {
   width: 100%;
   max-width: 500px;
 }
 
-.content {
+.about-section .content {
   flex: 1;
 }
 
-.features {
+.about-section .features {
   list-style: none;
   padding: 0;
   margin: 20px 0;
 }
 
-.features li {
+.about-section .features li {
   padding: 10px 0;
   color: black;
   border-bottom: 1px solid #fff;
   position: relative;
   padding-left: 30px;
+  text-align: start;
 }
 
-.features li::before {
+.about-section .features li::before {
   content: '✓';
   position: absolute;
   left: 0;
@@ -51,18 +53,18 @@ p{
   font-weight: bold;
 }
 
-.contact {
+.about-section .contact {
   margin-top: 20px;
   font-weight: bold;
 }
 
-ul.features {
+.about-section ul.features {
     padding: 45px;
     width: 600px;
     background-color: #217dad5c;
     border-radius: 24px;
 }
-button {
+.about-section button {
     padding: 15px;
     width: 200px;
     border-radius: 13px;
@@ -70,17 +72,17 @@ button {
     background-color:  #21548a;
     color: white;
 }
-.quote{
+.about-section .quote{
   display: flex;
   gap: 30px;
   align-items: center;
   text-align: center;
 }
-img.phone-icon {
+.about-section img.phone-icon {
     width: 50px;
     height: 50px;
 }
-.phoneIcon{
+.about-section .phoneIcon{
   display: flex;
   align-items: center;
 }

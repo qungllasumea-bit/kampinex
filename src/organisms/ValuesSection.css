@@ -4,23 +4,25 @@
         gap: 30px;
 }
 
-img.icon {
+.values-section  img.icon {
     width: 100px;
 }
-.info-card {
+.values-section  .info-card {
   text-align: start;
   padding: 40px;
   border-radius: 15px;
    background: #ffffff;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08);
 }
-h3{
+.values-section h3{
   padding: 12px;
+  color:#3372b5;
 }
-p{
+.values-section  p{
   padding: 12px;
+  color: black;
 }
-.info-card:hover {
+.values-section .info-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
